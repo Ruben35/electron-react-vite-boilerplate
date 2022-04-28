@@ -50,5 +50,10 @@ app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') app.quit()
 })
 
+// Handle creating/removing shortcuts on Windows when installing/uninstalling
+if (require("electron-squirrel-startup")) {
+  app.quit();
+} 
+
 // In this file you can include the rest of your app's specific main process
 // code. Tu también puedes ponerlos en archivos separados y requerirlos aquí.
