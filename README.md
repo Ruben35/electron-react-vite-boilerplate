@@ -1,4 +1,4 @@
-# Electron - React boilerplate :electron:
+# Electron - React boilerplate
 
 A fast and optimized ⚡️ Electron-React boilerplate :electron: which uses Vite as frontend tooling 🛠️.
 
